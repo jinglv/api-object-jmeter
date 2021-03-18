@@ -23,7 +23,7 @@
         <longProp name="ThreadGroup.end_time">1373789594000</longProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
         <stringProp name="ThreadGroup.duration">60</stringProp>
-        <stringProp name="ThreadGroup.delay">5</stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
         <stringProp name="TestPlan.comments">Virtual Users Running Scenario 1. 
 Make test last 1 minute (see Scheduler)</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
@@ -106,7 +106,7 @@ Connect to 5s</stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="status_code" enabled="true">
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="status_code" enabled="false">
             <collectionProp name="Asserion.test_strings">
               <stringProp name="49586">200</stringProp>
             </collectionProp>
@@ -189,7 +189,7 @@ Connect to 5s</stringProp>
               <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
             </JSONPostProcessor>
             <hashTree/>
-            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="status_code" enabled="true">
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="status_code" enabled="false">
               <collectionProp name="Asserion.test_strings">
                 <stringProp name="49586">200</stringProp>
               </collectionProp>
@@ -199,7 +199,7 @@ Connect to 5s</stringProp>
               <stringProp name="Assertion.custom_message"></stringProp>
             </ResponseAssertion>
             <hashTree/>
-            <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="message" enabled="true">
+            <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="message" enabled="false">
               <stringProp name="JSON_PATH">$.message</stringProp>
               <stringProp name="EXPECTED_VALUE">成功</stringProp>
               <boolProp name="JSONVALIDATION">false</boolProp>
@@ -228,7 +228,7 @@ Connect to 5s</stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
           </HTTPSamplerProxy>
           <hashTree>
-            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="status_code" enabled="true">
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="status_code" enabled="false">
               <collectionProp name="Asserion.test_strings">
                 <stringProp name="49586">200</stringProp>
               </collectionProp>
@@ -238,7 +238,7 @@ Connect to 5s</stringProp>
               <stringProp name="Assertion.custom_message"></stringProp>
             </ResponseAssertion>
             <hashTree/>
-            <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="message" enabled="true">
+            <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="message" enabled="false">
               <stringProp name="JSON_PATH">$.message</stringProp>
               <stringProp name="EXPECTED_VALUE">成功</stringProp>
               <boolProp name="JSONVALIDATION">false</boolProp>
@@ -267,7 +267,7 @@ Connect to 5s</stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
           </HTTPSamplerProxy>
           <hashTree>
-            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="status_code" enabled="true">
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="status_code" enabled="false">
               <collectionProp name="Asserion.test_strings">
                 <stringProp name="49586">200</stringProp>
               </collectionProp>
@@ -277,7 +277,7 @@ Connect to 5s</stringProp>
               <stringProp name="Assertion.custom_message"></stringProp>
             </ResponseAssertion>
             <hashTree/>
-            <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="message" enabled="true">
+            <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="message" enabled="false">
               <stringProp name="JSON_PATH">$.message</stringProp>
               <stringProp name="EXPECTED_VALUE">成功</stringProp>
               <boolProp name="JSONVALIDATION">false</boolProp>
@@ -318,7 +318,7 @@ Connect to 5s</stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
           </HTTPSamplerProxy>
           <hashTree>
-            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="status_code" enabled="true">
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="status_code" enabled="false">
               <collectionProp name="Asserion.test_strings">
                 <stringProp name="49586">200</stringProp>
               </collectionProp>
@@ -328,7 +328,7 @@ Connect to 5s</stringProp>
               <stringProp name="Assertion.custom_message"></stringProp>
             </ResponseAssertion>
             <hashTree/>
-            <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="message" enabled="true">
+            <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="message" enabled="false">
               <stringProp name="JSON_PATH">$.message</stringProp>
               <stringProp name="EXPECTED_VALUE">成功</stringProp>
               <boolProp name="JSONVALIDATION">false</boolProp>
@@ -357,7 +357,7 @@ Connect to 5s</stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
           </HTTPSamplerProxy>
           <hashTree>
-            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="status_code" enabled="true">
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="status_code" enabled="false">
               <collectionProp name="Asserion.test_strings">
                 <stringProp name="49586">200</stringProp>
               </collectionProp>
@@ -367,7 +367,7 @@ Connect to 5s</stringProp>
               <stringProp name="Assertion.custom_message"></stringProp>
             </ResponseAssertion>
             <hashTree/>
-            <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="message" enabled="true">
+            <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="message" enabled="false">
               <stringProp name="JSON_PATH">$.message</stringProp>
               <stringProp name="EXPECTED_VALUE">成功</stringProp>
               <boolProp name="JSONVALIDATION">false</boolProp>
